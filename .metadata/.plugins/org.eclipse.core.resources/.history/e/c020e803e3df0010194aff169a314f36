@@ -1,0 +1,7 @@
+spring.application.name=demo
+spring.mvc.view.prefix=/views
+spring.mvc.view.suffix=.jsp
+
+# localhost:8080/hello => hello.jsp
+
+# localhost:8080/hello => src/main/webapp/viewshello.jsp => search
