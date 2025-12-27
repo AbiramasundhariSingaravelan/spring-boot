@@ -3,3 +3,5 @@ C:\Users\WELCOME\intern-app-demo\.metadata\.plugins\org.eclipse.jst.jsp.core\jsp
 \demo\src\main\java
 C:\Users\WELCOME\intern-app-demo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\941019054.index
 \CustomerApp\src\main\java
+C:\Users\WELCOME\intern-app-demo\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3346370225.index
+\StudentApp\src\main\java

@@ -2,8 +2,8 @@ package com.example.demo;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
@@ -14,13 +14,9 @@ public class HomeController {
 		return "form";
 	}
 	@RequestMapping("/submit")
-	public String formData(@RequestParam("username") String uname, @RequestParam("productname") String productname, @RequestParam("quantity") String quantity, @RequestParam("price") String price, Model m)
+	public String formData(@ModelAttribute("abc") Customer c, Model m)
 	{
-		m.addAttribute("username", uname);
-		m.addAttribute("productname", productname);
-		m.addAttribute("quantity", quantity);
-		m.addAttribute("price", price);
-		
+		m.addAttribute("abc", c);		
 		return "display";
 	}
 }

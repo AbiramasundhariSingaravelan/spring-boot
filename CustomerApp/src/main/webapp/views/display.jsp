@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p> Username: ${username} </p>
-<p> Product Name: ${productname} </p>
-<p> Quantity: ${quantity} </p>
-<p> PRice: ${price} </p>
+<p> Username: ${abc.username} </p>
+<p> Product Name: ${abc.productname} </p>
+<p> Quantity: ${abc.quantity} </p>
+<p> PRice: ${abc.price} </p>
 
 </body>
 </html>
